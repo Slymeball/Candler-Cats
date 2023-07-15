@@ -1,7 +1,7 @@
 require(... .. ".register")
 
 events.TICK:register(function()
-    if candler and candler.cats.examples then
+    if candler then
         candler.lib.setCommand("creativeUtils", "copy", {
             aliases = {}, -- Every other command that should lead to this file.
             description = "Copies the item in your hand (or offhand) into your clipboard.", -- A description of the command.

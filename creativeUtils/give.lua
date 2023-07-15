@@ -1,7 +1,7 @@
 require(... .. ".register")
 
 events.TICK:register(function()
-    if candler and candler.cats.examples then
+    if candler then
         candler.lib.setCommand("creativeUtils", "give", {
             aliases = {"dfgive", "i"}, -- Every other command that should lead to this file.
             description = "Gives yourself the item on the clipboard or the item passed as an argument.", -- A description of the command.

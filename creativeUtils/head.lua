@@ -24,6 +24,6 @@ events.TICK:register(function()
 
             host:setSlot(-1, world:newItem('minecraft:player_head{SkullOwner:"' .. arg[1] .. '"}'))
         end)
-        events.TICK:remove("reg.creativeUtils.give")
+        events.TICK:remove("reg.creativeUtils.head")
     end
-end, "reg.creativeUtils.give")
+end, "reg.creativeUtils.head")
